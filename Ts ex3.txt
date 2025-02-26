@@ -1,0 +1,41 @@
+1.variable and types
+
+let userName: string = "sree";
+let age: number = 25;
+let isStudent: boolean = true;
+
+
+2.functions and type annotation
+
+function add(a: number, b: number): number {
+    return a + b;
+}
+
+
+3.function with optional parameter
+function greet(name: string, message: string = "Hello"): string {
+    return `${message}, ${name}!`;
+}
+
+
+
+4.union types
+function displayId(id: number | string): void {
+    console.log(`ID: ${id}`);
+}
+
+
+5.Arrays and tuples
+
+let numbers: number[] = [10, 20, 30];
+let person: [string, number] = ["Alice", 30];
+
+
+
+
+
+
+
+
+
+
